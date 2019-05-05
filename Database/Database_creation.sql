@@ -3,7 +3,7 @@ GO
 
 IF EXISTS(SELECT * FROM sys.databases WHERE name='Booking') 
 BEGIN 
-DROP DATABASE Booking 
+	DROP DATABASE Booking 
 END 
 GO 
 
